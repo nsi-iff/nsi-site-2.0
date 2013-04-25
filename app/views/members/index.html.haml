@@ -1,0 +1,14 @@
+.row
+  - @members.each do |member|
+    .span4.member
+      = link_to image_tag(member.gravatar_url), member
+      .member_data
+        %span.name= link_to member.name, member
+        %span.function= member.function
+        %p.currently_does= member.currently_does
+        %ul.links
+          - %w(site github lattes twitter slideshare).each do |link|
+            - if member.send(link).present?
+              %li
+                %a{href: member.send("#{link}_url"), class: "member-#{link}", target: '_blank'}
+                  = link.capitalize

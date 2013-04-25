@@ -9,6 +9,7 @@ gem 'devise', '~>2.2.3'
 gem 'formtastic', '~>2.2.1'
 gem 'inherited_resources', '~>1.4.0'
 gem 'rails_admin', '~>0.4.7'
+gem 'gravtastic'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
