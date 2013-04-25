@@ -5,7 +5,7 @@ gem 'rails', '3.2.13'
 gem 'pg', '~>0.15.1'
 
 gem 'devise', '~>2.2.3'
-gem 'haml-rails', '~>0.4'
+#gem 'haml-rails', '~>0.4'
 gem 'formtastic', '~>2.2.1'
 gem 'inherited_resources', '~>1.4.0'
 gem 'rails_admin', '~>0.4.7'
